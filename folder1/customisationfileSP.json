@@ -1,0 +1,31 @@
+{
+  "name": "DevBox Customizations",
+  "description": "Customizations for devbox including Visual Studio Code and other useful tools",
+  "tools": [
+    {
+      "name": "Visual Studio Code",
+      "command": "code",
+      "install": "sudo apt-get install -y code"
+    },
+    {
+      "name": "Git",
+      "command": "git",
+      "install": "sudo apt-get install -y git"
+    },
+    {
+      "name": "Node.js",
+      "command": "node",
+      "install": "sudo apt-get install -y nodejs"
+    },
+    {
+      "name": "npm",
+      "command": "npm",
+      "install": "sudo apt-get install -y npm"
+    },
+    {
+      "name": "Docker",
+      "command": "docker",
+      "install": "sudo apt-get install -y docker.io"
+    }
+  ]
+}
